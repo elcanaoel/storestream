@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/server/server.js",
     "dev": "nodemon src/server/server.js",
-    "build": "cd src/client && npm run build"
+    "build": "cd src/client && npm run build",
+    "vercel-build": "cd src/client && npm install && npm run build"
   },
   "keywords": [
     "torrent",
